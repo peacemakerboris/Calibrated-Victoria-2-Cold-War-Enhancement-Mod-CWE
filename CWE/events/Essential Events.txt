@@ -162,6 +162,25 @@ country_event = {
 	option = {
 		name = "Money really does grows on trees!"
 		treasury = 2000000
+		any_pop = { limit = { culture = french } money = 5 }
+		any_pop = { limit = { culture = white_french } money = 10 }
+		any_pop = { limit = { culture = jewish } money = 10 }
+		any_pop = { limit = { culture = white_spanish } money = 3 }
+		any_pop = { limit = { culture = andean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = white_portuguese } money = 3 }
+		any_pop = { limit = { culture = caribbean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = platinean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = british } money = 100}
+		any_pop = { limit = { culture = english } money = 100}
+		any_pop = { limit = { culture = scottish } money = 100}
+		any_pop = { limit = { culture = welsh  } money = 100}
+		any_pop = { limit = { culture = swiss_german } money = 80 }
+		any_pop = { limit = { culture = australian } money = 1400 }
+		any_pop = { limit = { culture = new_zealander } money = 900 }
+		any_pop = { limit = { culture = white_anglo } money = 2750 }
+		any_pop = { limit = { culture = anglo_canadian } money = 1300 }
+		any_pop = { limit = { culture = french_canadian } money = 300 }
+		any_pop = { limit = { culture = afrikaaner } money = 1100 }
 		set_country_flag = moneyforall
 		}
 }
@@ -180,6 +199,25 @@ country_event = {
 	option = {
 		name = "Money really does grows on trees!"
 		any_owned = { owner = { money = 10000 } }
+		any_pop = { limit = { culture = french } money = 5 }
+		any_pop = { limit = { culture = white_french } money = 10 }
+		any_pop = { limit = { culture = jewish } money = 10 }
+		any_pop = { limit = { culture = white_spanish } money = 3 }
+		any_pop = { limit = { culture = andean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = white_portuguese } money = 3 }
+		any_pop = { limit = { culture = caribbean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = platinean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = british } money = 100}
+		any_pop = { limit = { culture = english } money = 100}
+		any_pop = { limit = { culture = scottish } money = 100}
+		any_pop = { limit = { culture = welsh  } money = 100}
+		any_pop = { limit = { culture = swiss_german } money = 80 }
+		any_pop = { limit = { culture = australian } money = 1400 }
+		any_pop = { limit = { culture = new_zealander } money = 900 }
+		any_pop = { limit = { culture = white_anglo } money = 2750 }
+		any_pop = { limit = { culture = anglo_canadian } money = 1300 }
+		any_pop = { limit = { culture = french_canadian } money = 300 }
+		any_pop = { limit = { culture = afrikaaner } money = 1100 }
 		set_country_flag = playermoneyboost
 	}
 }
